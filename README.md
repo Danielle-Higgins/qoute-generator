@@ -1,1 +1,3 @@
 # qoute-generator
+
+## thoughts 💭
