@@ -28,7 +28,13 @@ body {
 
 /* styles for the button */
 button {
-
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 /* styles for the content container */
@@ -46,11 +52,24 @@ button {
     margin: 0 auto 20px auto;
 }
 
-/* styles for the quote container */
+/* styles for the quote content */
 .quote-container {
     background-color: white;
     font-size: 20px;
-    max-width: 500px;
-    padding: 40px;
+    max-width: 530px;
+    max-height: 530px;
+    padding: 35px;
     border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.quote {
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.person {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
 }
