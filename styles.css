@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+
+    /* 
+    url() is used to tell CSS where our image is located.
+    When you apply a background image to an element, by default it will repeat itself.
+    */
+    background-image: url("./images/abundant-collection-antique-books-wooden-shelves-generated-by-ai.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles for the button */
+button {
+
+}
+
+/* styles for the content container */
+.container {
+    text-align: center;
+}
+
+/* styles for the header */
+.header {
+    color: white;
+    background-color: black;
+    max-width: 440px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 auto 20px auto;
+}
+
+/* styles for the quote container */
+.quote-container {
+    background-color: white;
+    font-size: 20px;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+}
